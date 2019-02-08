@@ -1,0 +1,100 @@
+
+@import url(https://fonts.googleapis.com/css?family=Satisfy|Pathway+Gothic+On);
+
+}
+  
+
+
+html, body {
+    margin: 0;
+    padding: 0;
+    width: 0;
+    height: 100%;
+   
+
+
+    box-sizing: border-box;
+ 
+  
+  
+}
+
+CSS
+#content h1 {
+  font-style:italic;
+   font-weight: bold;
+   font-family: "trebuchet MS", "Ink Free", "Century Gothic", "Monaco", "Sans-serif","Verdana","MV boli"
+   font-color: #5d6d7e;
+
+  }
+
+  
+#content h1 {
+  font-style:italic;
+  font-weight:bold;
+  font-size:2em;
+  font-family:"Helvetica","Verdana","Monaco","sans-serif";
+  font-color: #5d6d7e;
+
+}
+
+body {
+  background:#F0F4E6;
+  color: #5d6d7e;
+}
+
+
+h1 {
+  font-family: "Trebuchet MS";
+  font-size: 2em;
+  font-style: normal;
+  
+}
+  
+h2 {
+  font-family: "Pathway gothic one", "sans serif";
+  font-size: 6.5em;
+  color: #34498;
+}
+ h1,h2 {
+   font-family: "Century Gothic";
+  font-size: 6.5em;
+  color: #34498;
+}
+
+h1,h2 {
+    text-align: center;
+    display: block;
+    width: auto;
+    margin: 2%;
+}
+p {
+  text-align: center;
+  font-family:"Trebuchet MS";
+  font-size: 6.5em;
+  color:#aeb6bf;
+}
+
+h3{
+  text-align: left;
+  font-size: 2em;
+  color:#34498;
+  font-family: "ink free";
+}
+
+input onclick {
+text-decoration:none;
+font-weight: 600;
+font-size: 20px;
+color:#333333;
+padding-top:15px;
+padding-bottom:15px;
+padding-left:40px;
+padding-right:40px;
+background-color:#FFD27D;
+border-color: #d8d8d8;
+border-width: 3px;
+border-style: solid;
+border-radius:35px;
+
+}
