@@ -1,7 +1,5 @@
 
-@import url(https://fonts.googleapis.com/css?family=Satisfy|Pathway+Gothic+On);
 
-}
   
 
 
@@ -13,33 +11,26 @@ html, body {
    
 
 
-    box-sizing: border-box;
- 
+
+   box-sizing: border-box;
+}  
   
   
-}
+
 
 CSS
 #content h1 {
   font-style:italic;
-   font-weight: bold;
-   font-family: "trebuchet MS", "Ink Free", "Century Gothic", "Monaco", "Sans-serif","Verdana","MV boli"
-   font-color: #5d6d7e;
-
-  }
-
-  
-#content h1 {
-  font-style:italic;
   font-weight:bold;
   font-size:2em;
-  font-family:"Helvetica","Verdana","Monaco","sans-serif";
-  font-color: #5d6d7e;
+  flood-color: #13000d;
+  font-family:'Helvetica','Verdana','Monaco',"sans-serif", "Trebuchet MS", "Ink Free","Century Gothic", "MV boli";
 
 }
 
 body {
-  background:#F0F4E6;
+  background:  #f4f9ea;
+  
   color: #5d6d7e;
 }
 
@@ -51,18 +42,13 @@ h1 {
   
 }
   
-h2 {
+h1, h2 {
   font-family: "Pathway gothic one", "sans serif";
   font-size: 6.5em;
-  color: #34498;
-}
- h1,h2 {
-   font-family: "Century Gothic";
-  font-size: 6.5em;
-  color: #34498;
-}
-
-h1,h2 {
+  color:#13000d;
+ font-family: "Century Gothic";
+  font-size: 5.5em;
+  color: #13000d; 
     text-align: center;
     display: block;
     width: auto;
@@ -71,30 +57,38 @@ h1,h2 {
 p {
   text-align: center;
   font-family:"Trebuchet MS";
-  font-size: 6.5em;
+  font-size: 4em;
   color:#aeb6bf;
 }
 
 h3{
-  text-align: left;
+  text-align: center;
   font-size: 2em;
-  color:#34498;
+  color:#83707c;
+  font-family: "Trebuchet MS";
+}
+h4{
+  font-size:.5em;
+  font-family: "Mv boli";
+  color: #f4f9ea;
+  text-align:center;
+ 
+}
+h5{
+  font-size:2em;
   font-family: "ink free";
+  text-align: center;
+  color:#83707c;
+  
 }
 
-input onclick {
-text-decoration:none;
-font-weight: 600;
-font-size: 20px;
-color:#333333;
-padding-top:15px;
-padding-bottom:15px;
-padding-left:40px;
-padding-right:40px;
-background-color:#FFD27D;
-border-color: #d8d8d8;
-border-width: 3px;
-border-style: solid;
-border-radius:35px;
-
+div {
+  background-color: lightgrey;
+  width: 1300px;
+  border: 25px Solid RosyBrown;
+  padding: 35px;
+  margin: 15px;
+}
+img {
+  border-radius: 50%;
 }
