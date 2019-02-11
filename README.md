@@ -1,6 +1,6 @@
                        
                        
-                                             ¡¡¡BIENVENIDAS LA LUCHA LA HACEMOS TODAS!!!
+                                             ¡¡¡BIENVENIDAS LA LUCHA LA HACEMOS TODXS!!!
 
 HAY REALIDADES QUE PERMANECEN:
 
