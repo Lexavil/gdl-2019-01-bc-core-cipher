@@ -1,100 +1,142 @@
-
-@import url(https://fonts.googleapis.com/css?family=Satisfy|Pathway+Gothic+On);
-
-}
+style.css
   
-
-
-html, body {
-    margin: 0;
-    padding: 0;
-    width: 0;
-    height: 100%;
-   
-
-
-    box-sizing: border-box;
- 
-  
-  
-}
-
-CSS
-#content h1 {
-  font-style:italic;
-   font-weight: bold;
-   font-family: "trebuchet MS", "Ink Free", "Century Gothic", "Monaco", "Sans-serif","Verdana","MV boli"
-   font-color: #5d6d7e;
-
-  }
-
-  
-#content h1 {
-  font-style:italic;
-  font-weight:bold;
-  font-size:2em;
-  font-family:"Helvetica","Verdana","Monaco","sans-serif";
-  font-color: #5d6d7e;
-
-}
-
-body {
-  background:#F0F4E6;
-  color: #5d6d7e;
-}
-
-
-h1 {
-  font-family: "Trebuchet MS";
-  font-size: 2em;
-  font-style: normal;
-  
-}
-  
-h2 {
-  font-family: "Pathway gothic one", "sans serif";
-  font-size: 6.5em;
-  color: #34498;
-}
- h1,h2 {
-   font-family: "Century Gothic";
-  font-size: 6.5em;
-  color: #34498;
-}
-
-h1,h2 {
-    text-align: center;
-    display: block;
-    width: auto;
-    margin: 2%;
-}
-p {
-  text-align: center;
-  font-family:"Trebuchet MS";
-  font-size: 6.5em;
-  color:#aeb6bf;
-}
-
-h3{
-  text-align: left;
-  font-size: 2em;
-  color:#34498;
-  font-family: "ink free";
-}
-
-input onclick {
-text-decoration:none;
-font-weight: 600;
-font-size: 20px;
-color:#333333;
-padding-top:15px;
-padding-bottom:15px;
-padding-left:40px;
-padding-right:40px;
-background-color:#FFD27D;
-border-color: #d8d8d8;
-border-width: 3px;
-border-style: solid;
-border-radius:35px;
-
-}
+    html, body { 
+        margin: 0;
+        padding: 0;
+        width: 0;
+        height: 100%;
+       
+        background: image("http://www.bellasfondos.eu/pics/2014/0330/1/orig_94449.jpg");
+    
+    
+       box-sizing: border-box;
+    }  
+      
+      
+    
+    
+    content h1 {
+      font-style:italic;
+      font-weight:bold;
+      font-size:2em;
+      flood-color: #13000d;
+      font-family:'Helvetica','Verdana','Monaco',"sans-serif", "Trebuchet MS", "Ink Free","Century Gothic", "MV boli";
+    
+    }
+    
+    body {
+      background:  #f4f9ea;
+      
+      color: #5d6d7e;
+    }
+    
+    
+    h1 {
+      font-family: "Trebuchet MS";
+      font-size: 4em;
+      font-style: center;
+      
+    }
+      
+    h1, h2 {
+      font-family: "Pathway gothic one", "sans serif";
+      font-size: 6.5em;
+      color:#13000d;
+     font-family: "Century Gothic";
+      font-size: 5.5em;
+      color: #13000d; 
+        text-align: center;
+        display: block;
+        width: auto;
+        margin: 2%;
+    }
+    p {
+      text-align: center;
+      font-family:"Open Sans", "sans-serif";
+      font-size: 4em;
+      color:#aeb6bf;
+    }
+    
+    h3{
+      text-align: center;
+      font-size: 2em;
+      color:#83707c;
+      font-family: "Trebuchet MS";
+    }
+    
+    
+    h4{
+      font-size:3em;
+      font-family: "ubuntu";
+      text-align: center;
+      color:#13000d;
+      
+    }
+    
+    input[type-text]{
+      padding: 20px;
+      float: left;
+      border: 1px solid;
+      border-radius: 5px;
+      resize: vertical;
+      
+    }
+    
+     .buttons {
+       font-size :"21em";
+       font-family: "ink free";
+       text-align: center;
+       background-color: #83707c;
+     padding: 14px 40px;
+      transition-duration: 0.4s;
+       border-radius: 4px;
+       background-color: white; 
+      color: black; 
+      border: 2px solid #83707c;
+    }
+    .buttons:hover {
+      background-color: #555555;
+      color: white;
+    }
+    
+    input {
+      font-size :"12em";
+       font-family: "ink free";
+       text-align: center;
+       background-color: #247;
+       border-bottom-color: rosybrown;
+       size:"78";
+       border: purple;
+    }   
+    
+    textarea{
+      border: 25px;
+      border-radius: 5%;
+      font-size: "13em";
+      font-family: "ubuntu";
+      text-align: center;
+       width: 40%;
+    }
+    
+    div {
+      background-color: lightgrey;
+      width: 1000px;
+      border: 15px Solid white;
+      padding: 35px;
+      margin: 15px;
+      overflow: auto;
+      box-shadow: 10px 10px 5px grey
+    }
+    
+    
+    
+    img {
+      border-radius: 20%;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      width: 40%;
+      
+    }
+    
+    
