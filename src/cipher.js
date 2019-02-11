@@ -19,9 +19,4 @@
 
                 caracter_actual = alfabeto[alfabeto.length - sobrante];
 
-                resultado += caracter_actual;
-            }
-        }
-
-        output.value = resultado;
-    }
+                resultado += caracter_actual;)

@@ -10,5 +10,4 @@ button1.addEventListener("click", function(){
 document.getElementById(desplazamiento);
 button2.addEventListener("click", function(){
     decode(output.value, offset);true;
-
-}
+    output.value = resultado;}

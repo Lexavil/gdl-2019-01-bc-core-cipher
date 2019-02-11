@@ -9,7 +9,7 @@ html, body {
     width: 0;
     height: 100%;
    
-
+    background: image("http://www.bellasfondos.eu/pics/2014/0330/1/orig_94449.jpg");
 
 
    box-sizing: border-box;
@@ -37,7 +37,7 @@ body {
 
 h1 {
   font-family: "Trebuchet MS";
-  font-size: 2em;
+  font-size: 4em;
   font-style: normal;
   
 }
@@ -92,3 +92,4 @@ div {
 img {
   border-radius: 50%;
 }
+  
