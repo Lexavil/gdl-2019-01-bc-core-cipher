@@ -1,24 +1,26 @@
-const xyz = () =>{ //se obtiene el numero de posiciones
-
-    const string = document.getElementById("input").value; //Nos retorna un valor el cual es el resultado de texto codificado
-    const offset = parseInt(document.getElementById("offsetDiv").value); //texto ingresado
-   //obtiene el texto ingresado
-  
-   
-  window.cipher.encode(string, offset);
-    document.getElementById("stringencode").value= window.cipher.encode(offset, string);
+const ABECEDARIO = () =>{    
+    const offset = parseInt(document.getElementById("offset").value); //Clave (número) única de desplazamiento
+    const string = document.getElementById("contenido").value; // Se inserta el texto que sera codificado
+    window.cipher.encode(string, offset);
+    document.getElementById("resultadofinal").value= window.cipher.encode(offset, string); //Aquí se imprimira el resultado ya codificado
 };
-const textoEncode= document.getElementById("input"); //Genera el texto codificado
-textoEncode.addEventListener("buttonEncode", xyz);
+        const textEncode = document.getElementById("buttonEncode"); //boton codificar
+        textEncode.addEventListener("click", ABECEDARIO);
 
-const abc = () =>{  //genera el numero de posiciones
-  
-   const offset = parseInt(document.getElementById("numero").value); //genera el texto ingresado
-   
-   const string = document.getElementById("strindecode").value; //retornar el resultado del texto decodificado
-   
-   let mensajeFinal= window.cipher.decode(offset, string);
-    document.getElementById("stringdecode").value= mensajeFinal; //Nos retorna el mensaje codificado o decodificado segun sea la eleccion del usuario.
+const texto = () =>{
+    const offset = parseInt(document.getElementById("offset").value);
+    const string = document.getElementById("contenido").value;
+    let mensajeFinal = window.cipher.decode(offset, string);
+    document.getElementById("resultadofinal").value = mensajeFinal;
 };
-const textoDecode= document.getElementById("decode"); //Genera el texto decodificado
-textoDecode.addEventListener("buttonDecode", abc);
+         const textDecode = document.getElementById("buttonDecode"); //boton decodificar
+         textDecode.addEventListener("click", texto);
+
+         const mensajecadena = () =>{ //resultado final
+            const offset = document.getElementById("offset").value="";
+            const string = document.getElementById("contenido").value="";
+            let texto = (offset, string);
+            document.getElementById("resultadofinal").value = texto;
+        };
+                 const textLimpia = document.getElementById("limpiar"); //boton limpiador
+textLimpia.addEventListener("click", mensajecadena); //borrar el valor registrado

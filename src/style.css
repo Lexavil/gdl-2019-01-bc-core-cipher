@@ -10,30 +10,23 @@ html, body {
  box-sizing: border-box;
 }  
 
-
-
-
 content h1 {
 font-style:italic;
 font-weight:bold;
 font-size:2em;
 flood-color: #13000d;
-font-family:'Helvetica','Verdana','Monaco',"sans-serif", "Trebuchet MS", "Ink Free","Century Gothic", "MV boli";
-
+font-family:"sans-serif", "Trebuchet MS", "Ink Free","Century Gothic", "MV boli";
 }
 
 body {
 background:  #f4f9ea;
-
 color: #5d6d7e;
 }
-
 
 h1 {
 font-family: "Trebuchet MS";
 font-size: 4em;
 font-style: center;
-
 }
 
 h1, h2 {
@@ -68,7 +61,6 @@ font-size:3em;
 font-family: "ubuntu";
 text-align: center;
 color:#13000d;
-
 }
 h5{
   font-size: 1em;
@@ -83,7 +75,6 @@ float: left;
 border: 1px solid;
 border-radius: 5px;
 resize: vertical;
-
 }
 
 .buttons {
@@ -137,6 +128,7 @@ overflow: auto;
 box-shadow: 10px 10px 5px grey;
 text-align: center;
 }
+
 .dropbtn {
   background-color: #2e0320;
   color: white;

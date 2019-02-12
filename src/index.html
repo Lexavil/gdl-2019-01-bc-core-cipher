@@ -38,24 +38,27 @@
  <div>
   <h3>Mujer, con o sin miedo, pero Denuncia... </h3>
    
-<textarea name="offset" font-family="ubuntu" id="input" cols="60" rows="10" placeholder="Denuncia a cifrar"></textarea>
-  
+  <textarea name = "resultadofinal" font-family = "ubuntu" id = "contenido" required class="form-control" cols = "60" rows = "10" placeholder = "Declaración de los hechos."></textarea>
 </div>
 
 <div>
  <div title="Escribe el número de desplazamientos que hará tu clave unica" class="divInput" id="offsetDiv">
     <label for="offset">Clave (Número): </label>
-   <input type="number" name = "offset" id="numero"> 
+    <input type="number" name = "offset" id = "offset" onkeydown="javascript: return event.keyCode === 8 || event.keyCode === 46 ? true : !isNaN(Number(event.key))" />
+
+   
+    
    <input type = "button" value = " C I F R A R ▶ " name = "encode" id = "buttonEncode" class = "buttons">
 <input type = "button" value = " D E C O D I F I C A R ▶ " name = "decode" id = "buttonDecode" class = "buttons">
 </div>
 
-<textarea name = "resultado" style ="cursor:no-drop" font-family = "ubuntu" id = "stringdecode" cols = "60" rows = "10" placeholder =   "Denuncia codificada, estas a Salvo"></textarea>
+<textarea name = "resultadofinal" style ="cursor:no-drop" font-family = "ubuntu" id = "resultadofinal" cols = "60" rows = "10" placeholder = "Denuncia codificada, estas a Salvo."></textarea>
 
-     
+<button id= "limpiar" >Limpiar</button>   
     <h4>*Codificador para salvaguardar la integridad de Mujeres en situación de violencia</h4>   
 
     <script src="cipher.js"></script>
     <script src="index.js"></script>
   </body>
+  <footer><p> Lexavil</p></footer>
 </html>
