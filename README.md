@@ -2,6 +2,8 @@
 
                              ¡¡¡BIENVENIDAS LA LUCHA LA HACEMOS TODXS!!!
 
+                             ![Denuncia, con o sin miedo](https://scontent-qro1-1.xx.fbcdn.net/v/t1.15752-9/66688052_2325981917492908_3817244148159741952_n.jpg?_nc_cat=100&_nc_oc=AQk4JnG_nXoikdUmVpgKECDnLjGPgJTQeVQTsvsN1q2WAZT92CK4Z5oWUmvBPri9tck&_nc_ht=scontent-qro1-1.xx&oh=eac932e66cded3a3498a78f6ce21288d&oe=5DB6A2EF)
+
 HAY REALIDADES QUE PERMANECEN:
 
 “En el acoso callejero tenemos que por lo menos ocho de cada 10 mujeres sufren de acoso callejero en los espacios públicos, en el transporte y como acoso callejero se define “el acoso sexual en los espacios públicos, en las calles, plazas públicas, transporte, es decir, lo que anteriormente se denominaba piropos que realmente es molestar a las personas en la calle” agregó que pueden ser “desde miradas lascivas hasta que te griten, tocamientos o exhibición”. "INSTITUTO MUNICIPAL DE LAS MUJERES EN GUADALAJARA".
@@ -29,6 +31,6 @@ INSTALACIÓN:
     Asegúrate de tener un editor de texto en condiciones, algo como Atom (https://atom.io/) o Code (https://code.visualstudio.com/).
     Para ejecutar los comandos a continuación necesitarás una shell: UNIX Shell,que es un programa que interpreta líneas de comando (command-line interpreter).
     Así como tener git instalado. Si usas un sistema operativo "UNIX-like", como GNU/Linux o MacOS, ya tienes una shell (terminal) instalada por defecto (y probablemente git también). Si usas Windows puedes usar Git bash, aunque recomendaría que consideres probar 🐧 GNU/Linux.
-    Haz tu cuenta y accede a mi repositorio o visita: https://lexavil.github.io/lucha/src/.
+    Haz tu cuenta y accede a mi repositorio o visita: (https://lexavil.github.io/lucha/src/).
 
 Fuentes: https://cepad.org.mx/2018/04/informe-2017-violencia-genero-jalisco/ http://www.unwomen.org/es/what-we-do/ending-violence-against-women/facts-and-figures http://www.immg.gob.mx/
