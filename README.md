@@ -29,6 +29,6 @@ INSTALACIÓN:
     Asegúrate de tener un editor de texto en condiciones, algo como Atom (https://atom.io/) o Code (https://code.visualstudio.com/).
     Para ejecutar los comandos a continuación necesitarás una shell: UNIX Shell,que es un programa que interpreta líneas de comando (command-line interpreter).
     Así como tener git instalado. Si usas un sistema operativo "UNIX-like", como GNU/Linux o MacOS, ya tienes una shell (terminal) instalada por defecto (y probablemente git también). Si usas Windows puedes usar Git bash, aunque recomendaría que consideres probar 🐧 GNU/Linux.
-    Haz tu cuenta y accede a mi repositorio (https://github.com/Lexavil/gdl-2019-01-bc-core-cipher).
+    Haz tu cuenta y accede a mi repositorio o visita: https://lexavil.github.io/lucha/src/.
 
 Fuentes: https://cepad.org.mx/2018/04/informe-2017-violencia-genero-jalisco/ http://www.unwomen.org/es/what-we-do/ending-violence-against-women/facts-and-figures http://www.immg.gob.mx/

@@ -442,6 +442,7 @@ textarea {
 	display: block;
 	width: 90%;
 	margin: 0 auto 1rem;
+	color: #000;
 }
 
 input {
@@ -752,4 +753,20 @@ input[type=submit]:focus,
 		line-height: 1.4;
 		font-size: .9rem;
 	}
+}
+ /*boton de ir arriba*/
+ .ir-arriba {
+	display: none;
+	padding: 1em;
+	
+	
+	width: 3em;
+	height: 3em;
+	color: #fff;
+	cursor: pointer;
+	position: fixed;
+	bottom: 2em;
+	right: 20px;
+	z-index: 1;
+	
 }
