@@ -2,7 +2,7 @@
 
                              ¡¡¡BIENVENIDAS LA LUCHA LA HACEMOS TODXS!!!
 
-                             ![Denuncia, con o sin miedo](https://scontent-qro1-1.xx.fbcdn.net/v/t1.15752-9/66688052_2325981917492908_3817244148159741952_n.jpg?_nc_cat=100&_nc_oc=AQk4JnG_nXoikdUmVpgKECDnLjGPgJTQeVQTsvsN1q2WAZT92CK4Z5oWUmvBPri9tck&_nc_ht=scontent-qro1-1.xx&oh=eac932e66cded3a3498a78f6ce21288d&oe=5DB6A2EF)
+![Denuncia, con o sin miedo](https://scontent-qro1-1.xx.fbcdn.net/v/t1.15752-9/66688052_2325981917492908_3817244148159741952_n.jpg?_nc_cat=100&_nc_oc=AQk4JnG_nXoikdUmVpgKECDnLjGPgJTQeVQTsvsN1q2WAZT92CK4Z5oWUmvBPri9tck&_nc_ht=scontent-qro1-1.xx&oh=eac932e66cded3a3498a78f6ce21288d&oe=5DB6A2EF)
 
 HAY REALIDADES QUE PERMANECEN:
 
