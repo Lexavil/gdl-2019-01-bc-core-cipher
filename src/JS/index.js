@@ -1,26 +1,35 @@
-const ABECEDARIO = () =>{    
-    const offset = parseInt(document.getElementById("offset").value); //Clave (número) única de desplazamiento
-    const string = document.getElementById("contenido").value; // Se inserta el texto que sera codificado
-    window.cipher.encode(string, offset);
-    document.getElementById("resultadofinal").value= window.cipher.encode(offset, string); //Aquí se imprimira el resultado ya codificado
-};
-        const textEncode = document.getElementById("buttonEncode"); //boton codificar
-        textEncode.addEventListener("click", ABECEDARIO);
-
-const texto = () =>{
+let codificar =() => {
+    const string = document.getElementById("texto").value;
     const offset = parseInt(document.getElementById("offset").value);
-    const string = document.getElementById("contenido").value;
-    let mensajeFinal = window.cipher.decode(offset, string);
-    document.getElementById("resultadofinal").value = mensajeFinal;
-};
-         const textDecode = document.getElementById("buttonDecode"); //boton decodificar
-         textDecode.addEventListener("click", texto);
-
-         const mensajecadena = () =>{ //resultado final
-            const offset = document.getElementById("offset").value="";
-            const string = document.getElementById("contenido").value="";
-            let texto = (offset, string);
-            document.getElementById("resultadofinal").value = texto;
-        };
-                 const textLimpia = document.getElementById("limpiar"); //boton limpiador
-textLimpia.addEventListener("click", mensajecadena); //borrar el valor registrado
+    document.getElementById('mensajeSecreto').innerHTML = window.cipher.codificar(offset,string);
+    document.getElementById('enco1').innerHTML =window.cipher.decodificar(offset,string);
+  
+  };
+  
+  let decodificar =() => {
+    const string = document.getElementById("texto").value;
+    const offset = parseInt(document.getElementById("offset").value);
+    document.getElementById('mensajeSecreto').innerHTML =window.cipher.decodificar(offset,string);
+    document.getElementById('enco1').innerHTML =window.cipher.decodificar(offset,string);
+  };
+  
+  //let demoVisibility =() => {
+  //  document.getElementById("enco").style.visibility = "hidden";
+  //};
+  
+  
+  let limpiar =() => {
+  document.getElementById("espacioMensaje").reset();
+  document.getElementById("clave").reset();
+  document.getElementById("mensajeSecreto").innerHTML= "";
+  //demoVisibility();
+  };
+  
+  //let limpiar = () => {
+  //  clear();
+  //  demoVisibility();
+  //}
+  
+  document.getElementById("codificar").addEventListener('click', codificar);
+  document.getElementById("decodificar").addEventListener('click', decodificar);
+  document.getElementById("limpiar").addEventListener('click', limpiar);

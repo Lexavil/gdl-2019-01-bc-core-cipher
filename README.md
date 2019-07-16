@@ -1,12 +1,12 @@
 
 
-                             ¡¡¡BIENVENIDAS LA LUCHA LA HACEMOS TODXS!!!
+                             #¡¡¡BIENVENIDAS LA LUCHA LA HACEMOS TODXS!!!
 
 ![Denuncia, con o sin miedo](https://scontent-qro1-1.xx.fbcdn.net/v/t1.15752-9/66688052_2325981917492908_3817244148159741952_n.jpg?_nc_cat=100&_nc_oc=AQk4JnG_nXoikdUmVpgKECDnLjGPgJTQeVQTsvsN1q2WAZT92CK4Z5oWUmvBPri9tck&_nc_ht=scontent-qro1-1.xx&oh=eac932e66cded3a3498a78f6ce21288d&oe=5DB6A2EF)
 
 HAY REALIDADES QUE PERMANECEN:
 
-“En el acoso callejero tenemos que por lo menos ocho de cada 10 mujeres sufren de acoso callejero en los espacios públicos, en el transporte y como acoso callejero se define “el acoso sexual en los espacios públicos, en las calles, plazas públicas, transporte, es decir, lo que anteriormente se denominaba piropos que realmente es molestar a las personas en la calle” agregó que pueden ser “desde miradas lascivas hasta que te griten, tocamientos o exhibición”. "INSTITUTO MUNICIPAL DE LAS MUJERES EN GUADALAJARA".
+“Tenemos que por lo menos 8 de cada 10 mujeres sufren de acoso callejero en los espacios públicos, en el transporte y como acoso callejero se define “el acoso sexual en los espacios públicos, en las calles, plazas públicas, transporte, es decir, lo que anteriormente se denominaba piropos que realmente es molestar a las personas en la calle” agregó que pueden ser “desde miradas lascivas hasta que te griten, tocamientos o exhibición”. "INSTITUTO MUNICIPAL DE LAS MUJERES EN GUADALAJARA".
 
 La Encuesta Nacional sobre la Dinámica de las Relaciones en los Hogares (Endireh) hace un abordaje estadístico nacional para medir la violencia contra las mujeres, que nos permite pensar críticamente y con perspectiva de género las condiciones de injusticia y desigualdad que se dan en las relaciones de poder que se establecen entre hombres y mujeres, y que se expresan frecuentemente en acciones de agresión y discriminación.
 

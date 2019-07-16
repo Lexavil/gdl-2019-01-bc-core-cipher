@@ -1,10 +1,5 @@
-@import url("https://fonts.googleapis.com/css?family=Ubuntu:300,400|Fredoka+One|Permanent+Marker");
-@import url("https://fonts.googleapis.com/css?family=Satisfy|Pathway+Gothic+One");
-@import url("https://fonts.googleapis.com/css?family=Open+Sans");
-@import url("https://fonts.googleapis.com/css?family=Satisfy|Pathway+Gothic+On");
+@import url("https://fonts.googleapis.com/css?family=Ubuntu:300,400|Fredoka+One|Permanent+Marker|Mountains+of+Christmas|Varela+Round");
 
-    
-@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,700');
 
 /* Reset Styles */
 * {
@@ -102,6 +97,7 @@ h2 {
 	font-size: 1.8rem;
 	font-weight: 300;
 	color: #222;
+	font-family: "Mountains of Christmas";
 }
 
 p {
@@ -114,7 +110,26 @@ p {
 img {
 	width: 100%;
 	height: auto;
+	line-height: 1.65;
+	font-size: 1.2rem;
 }
+#poster{
+	
+	
+	height: auto;
+	line-height: 1.65;
+	font-size: 1.2rem;
+	position: relative;
+	width: 45%;
+	margin: 0 auto;
+
+}
+h4{
+	font-size: 3em;
+	margin-left: 14em;
+	display: inline-block;
+}
+
 
 
 /* Main Header Styles */
@@ -315,8 +330,9 @@ h1 {
 .footer__main {
 	padding-top: 1.5rem;
 	padding-bottom: .3rem;
-	background: #78789e no-repeat bottom center;
+	background: rgb(14, 13, 13) url('img/11.png') no-repeat bottom center;
 	background-size: cover;
+	
 }
 
 .footer__wrapper--flex {
@@ -330,7 +346,7 @@ h1 {
 	height: 40px;
 	text-align: right;
 	font-weight: 300;
-	color: #fff;
+	color: rgb(8, 8, 8);
 }
 
 .footer__copyright span {
@@ -363,7 +379,7 @@ h1 {
 	margin-top: 1px;
 	background: url('img/11.png') no-repeat center;
 	background-size: 60%;
-	border: 4px solid #fff;
+	border: 4px solid rgb(255, 255, 255);
 	border-radius: 100%;
 }
 
@@ -373,95 +389,31 @@ h1 {
 }
 
 
-/* Modal Email Form */
-.modal {
-	position: fixed;
-	top: 0;
-	right: 0;
-	bottom: 0;
-	left: 0;
-	z-index: -1;
-	opacity: 0;
-	visibility: hidden;
-	background: rgba(225, 225, 225, .95);
-	transform: scale(1.2);
-	transition: all .3s ease-out;
-}
-
-.modal--is-visible {
-	z-index: 5;
-	opacity: 1;
-	visibility: visible;
-	transform: scale(1);
-}
-
-.modal__inner {
-	position: absolute;
-	top: 50%;
-	left: 50%;
-	width: 80%;
-	transform: translate(-50%, -50%);
-}
-
-.modal__title {
-	font-size: 3rem;
-}
-
-.modal__title-icon {
-	position: relative;
-	top: 3px;
-	width: 50px;
-	opacity: .7;
-}
-
-.modal__description {
-	text-align: center;
-	line-height: 1.55;
-	font-size: 1.3rem;
-	font-weight: 300;
-}
-
-.modal__description__link {
-	opacity: .7;
-	font-weight: 700;
-	color: #000;
-}
-
-.form {
-	width: 100%;
-	margin: 0 auto;
-	text-align: center;
-}
-
 legend {
 	visibility: hidden;
 }
 
-input,
-textarea {
-	display: block;
-	width: 90%;
-	margin: 0 auto 1rem;
-	color: #000;
+input, form {
+	height: auto;
+	line-height: 1.65;
+	font-size: 1.2rem;
+	position: relative;
+	font-family: "Varela Round";
+	width: 45%;
+	margin: 0 auto;
+	background:  rgb(209, 209, 209);
 }
 
-input {
-	padding: 0 1rem;
-	line-height: 2.5;
-}
 
-input[type=submit] {
+input,form[type=submit] {
 	opacity: .8;
 	text-transform: uppercase;
 	font-weight: 700;
 	color: #fff;
-	background: #000;
+	background: rgb(175, 175, 175);
 }
 
-textarea {
-	padding: 1rem;
-	resize: none;
-}
+
 
 .modal__profiles {
 	position: absolute;
@@ -770,3 +722,31 @@ input[type=submit]:focus,
 	z-index: 1;
 	
 }
+.button {
+	
+	
+	cursor: pointer;
+	text-align: center;
+	text-decoration: none;
+	outline: none;
+	color: rgb(46, 0, 35);
+	background-color: rgba(82, 0, 68, 0.281);
+	border: none;
+	border-radius: 15px;
+	box-shadow: 0 9px #999;
+	height: auto;
+	line-height: 1.65;
+	font-size: 1.2rem;
+	position: relative;
+	width: 45%;
+	margin: 0 auto;
+	font-family: "Fredoka One";
+  }
+  
+  .button:hover {background-color: #8e3e6a}
+  
+  .button:active {
+	background-color: #910038;
+	box-shadow: 0 5px #666;
+	transform: translateY(4px);
+  }

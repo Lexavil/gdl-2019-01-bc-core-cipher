@@ -1,186 +1,213 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<script src="http://code.jquery.com/jquery-latest.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="style.css" />
-    <link rel="dns-prefetch" href="https://www.google-analytics.com/"> 
+    <link rel="dns-prefetch" href="https://www.google-analytics.com/">
     <link rel="shortcut icon" href="http://talentsunited.com/uploads/img/reto_es_20141211161015_logo_logoNO.png" />
     <title>No más violencia</title>
 </head>
 
 
 
-    <body>
-			<span class="ir-arriba"><img src="img/12.gif"></span>
+<body>
+    <span class="ir-arriba"><img src="img/12.gif"></span>
 
-	<header class="header header__main">
-	
-		<nav>
-			<ul class="menu menu--flex">
-				
-				<li class="menu__item"><a data-scroll href="#about-me">Codificador</a></li>
-				<li class="menu__item"><a data-scroll href="#my-projects">Datos de Ayuda</a></li>
-				<li class="menu__item"><a data-scroll href="#contacts">Links</a></li>
-             
-                
-			</ul>
-		</nav>
-		<ul class="header__profiles profiles--flex">
-			<li class="profile__link"><a href="https://www.facebook.com/sibilaescucha/?ref=py_c"  target="_blank" >Acompañamiento Psicologico</a></li>
-			<li class="profile__link"><a href="https://www.gob.mx/911"  target="_blank">911</a></li>
-			
-                
-		</ul>
+    <header class="header header__main">
+
+        <nav>
+            <ul class="menu menu--flex">
+
+                <li class="menu__item"><a data-scroll href="#codificador">Codificador</a></li>
+                <li class="menu__item"><a data-scroll href="#my-projects">Datos de Ayuda</a></li>
+                <li class="menu__item"><a data-scroll href="#contacts">Links</a></li>
+
+
+            </ul>
+        </nav>
+        <ul class="header__profiles profiles--flex">
+            <li class="profile__link"><a href="https://www.facebook.com/sibilaescucha/?ref=py_c" target="_blank">Acompañamiento Psicologico</a></li>
+            <li class="profile__link"><a href="https://www.gob.mx/911" target="_blank">911</a></li>
+
+
+        </ul>
     </header>
-    <section id="about-me" class="about-me">
-			<h2 class="about-me__title">Codificador</h2>
-			<article class="about-me__content">
-				<h2 class="about-me__content__title">About Me</h2>
+    
 
+            <section id="codificador">
 				
-				<section id="cifrador">
-					<h2>Mujer, con o sin miedo...Denuncia</h2>
-					<textarea name="resultadofinal" id="contenido" required class="form-control" cols="60" rows="10" placeholder="Declaración de los hechos"></textarea>
-							  
-				  </section>
-			
-				 <section title="Escribe el número de desplazamientos que hará tu clave única" class="divInput" id="offsetDiv">
-				   <label for="offset">Clave</label>
-				   <input type="number" name="offset" id="offset" onkeydown="javascript: return event.keyCode === 8 || event.keyCode === 46 ? true : !isNaN(Number(event.key))" />
-			
-			   <input type = "button" value = " C I F R A R ▶ " name = "encode" id = "buttonEncode" class = "buttons">
-			<input type = "button" value = " D E C O D I F I C A R ▶ " name = "decode" id = "buttonDecode" class = "buttons">
-			
-			
-			<textarea name = "resultadofinal" style ="cursor:no-drop" font-family = "ubuntu" id = "resultadofinal" cols = "60" rows = "10" placeholder = "Denuncia codificada, estas a Salvo."></textarea>
-			
-			<button id= "limpiar" >Limpiar</button>  
-			</section> 
-				<h4>*Codificador para salvaguardar la integridad de Mujeres en situación de violencia</h4>   
-			
+				<h2>Codificador para salvaguardar la integridad de Mujeres en situación de violencia.</h2>
 				
-        
-        <h1>La lucha la hacemos tod❌s</h1>
-        <img src='./img/7.png' alt="Poster">
+				<section class="mensajeCifrar">
+						<form id="espacioMensaje" class="espacioMensaje">
+						  <h2> Introduce tu mensaje </h2>
 				
-			</article>
-		</section>
-	<main class="main-content">
-		<section id="my-projects" class="my-projects">
-			<h2 class="my-projects__title">Datos de Ayuda</h2>
-			<div class="projects--flex">
-				<div class="project-preview">
-					<picture>
-						<img src="img/1.png" alt="organa">
-					</picture>
-					<ul class="project-preview__description description--flex">
-						<li><a href="https://www.jalisco.gob.mx/es/atencion-ciudadana/numeros-de-emergencia">Números de Emergencia</a></li>
-						<li><p>Atención Médica de Violencia Sexual, Física y Psicológica
+						  <input type="text" id="texto">
+						</form>
+				
+				
+				
+				
+				
+						<form id="clave">
+						  <h3> No. clave </h3>
+				
+						  <input type="number" id="offset" >
+						</form>
+				
+						<section id="botonesAccion">
+						 <input type="button" id="codificar" class="button" value="Codificar">
+						 <input type="button" id="decodificar" class="button" value="Decodificar">
+						</section>
+				
+				
+						<form class="ex1">
+						<p>Tu mensaje cifrado es:</p>
+						<div id="mensajeSecreto"> </div>
+				
+					  </form>
+				
+					  <section class="botonBorrar">
+						<input type="button" id="limpiar" value="Borrar" class="button">
+					  </section>
+				
+				
+					 
+				
+			</section>
+			<section id="poster">
+            
 
-                Cruz Verde Unidad Dr. Delgadillo Araujo.
-                Domicilio: Mariano Bárcenas #997 Col. Alcalde Barranquitas.
-                Tel: 12 01 72 00 Ext. 5.</p></li>
+            <h1>La lucha la hacemos tod❌s</h1>
+			<img src='./img/7.png' alt="Poster">
+			<h1>*Codificador para salvaguardar la integridad de Mujeres en situación de violencia.</h1>
+</section>
+        </article>
+    </section>
+    <main class="main-content">
+        <section id="my-projects" class="my-projects">
+            <h2 class="my-projects__title">Datos de Ayuda</h2>
+            <div class="projects--flex">
+                <div class="project-preview">
+                    <picture>
+                        <img src="img/1.png" alt="organa">
+                    </picture>
+                    <ul class="project-preview__description description--flex">
+                        <li><a href="https://www.jalisco.gob.mx/es/atencion-ciudadana/numeros-de-emergencia">Números de Emergencia</a></li>
+                        <li>
+                            <p>Atención Médica de Violencia Sexual, Física y Psicológica
+
+                                Cruz Verde Unidad Dr. Delgadillo Araujo.
+                                Domicilio: Mariano Bárcenas #997 Col. Alcalde Barranquitas.
+                                Tel: 12 01 72 00 Ext. 5.</p>
+                        </li>
 
 
-					</ul>
-				</div>
-				<div class="project-preview">
-					<picture>
-						<img src="img/4.png" alt="guru">
-					</picture>
-					<ul class="project-preview__description description--flex">
-						<li><a href="https://www.jalisco.gob.mx/es/atencion-ciudadana/numeros-de-emergencia" target="blank">Números de emergencia</a></li>
-						<li><p>Atención Médica de Violencia Sexual, Física y Psicológica
+                    </ul>
+                </div>
+                <div class="project-preview">
+                    <picture>
+                        <img src="img/4.png" alt="guru">
+                    </picture>
+                    <ul class="project-preview__description description--flex">
+                        <li><a href="https://www.jalisco.gob.mx/es/atencion-ciudadana/numeros-de-emergencia" target="blank">Números de emergencia</a></li>
+                        <li>
+                            <p>Atención Médica de Violencia Sexual, Física y Psicológica
 
-                Cruz Verde Unidad Dr. Mario Rivas
-                
-                Teléfono: 12 01 73 10 Ext. 7303
-                
-                Domicilio: Manuel M. Morín #430, Col. Santa Isabel, Zona Huentitán</p></li>
-					</ul>
-				</div>
-				<div class="project-preview">
-					<picture>
-						<img src="img/5.png" alt="laba">
-					</picture>
-					<ul class="project-preview__description description--flex">
-						<li><a href="https://www.jalisco.gob.mx/es/atencion-ciudadana/numeros-de-emergencia" target="blank">Números de Emergencia</a></li>
-						<li><p> Cruz Verde Unidad Dr. Ernesto Arias
-                
-              Teléfonos: 36 69 13 20 / 36 69 13 21 / 36 69 13 22
-              
-              Domicilio: Calle Los Ángeles y Analco, Col. Las Conchas, Zona Centro</p></li>
-					</ul>
-				</div>
-			
-			</div>
-		</section>
-		
-		<section id="contacts" class="contacts">
-			<h2 class="contacts__title"></h2>
-			<div class="contacts__content--flex">
-				<div class="contacts__content__item">
-					<p>Ningún tipo de violencia es normal o debe ser justificada, tener miedo de vivir, no es normal.</p>
-					
-				</div>
-				<div class="contacts__content__item">
-                    <p> <span><img src="img/2.gif"></span></p>
-                    
-				</div>
-			</div>
+                                Cruz Verde Unidad Dr. Mario Rivas
+
+                                Teléfono: 12 01 73 10 Ext. 7303
+
+                                Domicilio: Manuel M. Morín #430, Col. Santa Isabel, Zona Huentitán</p>
+                        </li>
+                    </ul>
+                </div>
+                <div class="project-preview">
+                    <picture>
+                        <img src="img/5.png" alt="laba">
+                    </picture>
+                    <ul class="project-preview__description description--flex">
+                        <li><a href="https://www.jalisco.gob.mx/es/atencion-ciudadana/numeros-de-emergencia" target="blank">Números de Emergencia</a></li>
+                        <li>
+                            <p> Cruz Verde Unidad Dr. Ernesto Arias
+
+                                Teléfonos: 36 69 13 20 / 36 69 13 21 / 36 69 13 22
+
+                                Domicilio: Calle Los Ángeles y Analco, Col. Las Conchas, Zona Centro</p>
+                        </li>
+                    </ul>
+                </div>
+
+            </div>
         </section>
-        
-	</main>
-	<footer class="footer footer__main">
-		<div class="footer__wrapper--flex">
-			<div class="footer__copyright">
-				<span>&copy; 2019 &nbsp; Alex Aviles</span>
-			</div>
-			<ul class="footer__profiles profiles--flex">
-          <li class="profile__link">
-              <a href="https://www.jalisco.gob.mx/es/atencion-ciudadana/numeros-de-emergencia" target="_blank" title="Números de emergencia">
-                <img src="http://www.capitaltlaxcala.gob.mx/wp-content/uploads/2017/07/911-2.jpg" alt="Go to My Facebook Profile">
-              </a>
-            </li>
-				<li class="profile__link">
-					<a href="https://www.facebook.com/sibilaescucha/" target="_blank" title="Centro de escucha Psicologica">
-						<img src="https://scontent-qro1-1.xx.fbcdn.net/v/t1.0-9/50844643_402961763776669_6062208061831905280_n.png?_nc_cat=100&_nc_oc=AQnB3eYzs_5xewkIj6h4eDM9bT0UWz2lhAI55gHeyyPRVWPCsb6nyZJ0NNp_Da-lSAM&_nc_ht=scontent-qro1-1.xx&oh=a5dfd5c01fe788142e9d2a85817e78be&oe=5DA9B0F1" alt="Go to GitHub Profile">
-					</a>
-        </li>
-        <li class="profile__link">
-            <a href="http://vidasinviolencia.inmujeres.gob.mx/" target="_blank" title="Inmujeres Jalisco">
-            <img src="img/10.png">
-            </a>
-</li>
-				<li class="profile__link">
-					<a href="https://fge.jalisco.gob.mx/content/centro-de-justicia-para-las-mujeres" target="_blank" title="Centro de Justicia para las mujeres">
-						<img src="./img/3.jpg" alt="Go to LinkedIn Profile">
-					</a>
-				</li>
-				<li class="profile__link">
-					<a href="mailto:contacto@guadalajara.gob.mx?Subject=Aquí%20redactar%20el%20asunto%20del%20email" title="Pedir ayuda por correo">
-						<img src="img/9.png" >
-					</a>
-				</li>
-			
+
+        <section id="contacts" class="contacts">
+            <h2 class="contacts__title"></h2>
+            <div class="contacts__content--flex">
+                <div class="contacts__content__item">
+                    <p>Ningún tipo de violencia es normal o debe ser justificada, tener miedo de vivir, no es normal.</p>
+
+                </div>
+                <div class="contacts__content__item">
+                    <p> <span><img src="img/2.gif"></span></p>
+
+                </div>
+            </div>
+        </section>
+
+    </main>
+    <footer class="footer footer__main">
+        <div class="footer__wrapper--flex">
+            <div class="footer__copyright">
+                <span>&copy; 2019 &nbsp; Alex Aviles</span>
+            </div>
+            <ul class="footer__profiles profiles--flex">
+                <li class="profile__link">
+                    <a href="https://www.jalisco.gob.mx/es/atencion-ciudadana/numeros-de-emergencia" target="_blank" title="Números de emergencia">
+                        <img src="http://www.capitaltlaxcala.gob.mx/wp-content/uploads/2017/07/911-2.jpg" alt="Go to My Facebook Profile">
+                    </a>
+                </li>
+                <li class="profile__link">
+                    <a href="https://www.facebook.com/sibilaescucha/" target="_blank" title="Centro de escucha Psicologica">
+                        <img src="https://scontent-qro1-1.xx.fbcdn.net/v/t1.0-9/50844643_402961763776669_6062208061831905280_n.png?_nc_cat=100&_nc_oc=AQnB3eYzs_5xewkIj6h4eDM9bT0UWz2lhAI55gHeyyPRVWPCsb6nyZJ0NNp_Da-lSAM&_nc_ht=scontent-qro1-1.xx&oh=a5dfd5c01fe788142e9d2a85817e78be&oe=5DA9B0F1" alt="Go to GitHub Profile">
+                    </a>
+                </li>
+                <li class="profile__link">
+                    <a href="http://vidasinviolencia.inmujeres.gob.mx/" target="_blank" title="Inmujeres Jalisco">
+                        <img src="img/10.png">
+                    </a>
+                </li>
+                <li class="profile__link">
+                    <a href="https://fge.jalisco.gob.mx/content/centro-de-justicia-para-las-mujeres" target="_blank" title="Centro de Justicia para las mujeres">
+                        <img src="./img/3.jpg" alt="Go to LinkedIn Profile">
+                    </a>
+                </li>
+                <li class="profile__link">
+                    <a href="mailto:contacto@guadalajara.gob.mx?Subject=Aquí%20redactar%20el%20asunto%20del%20email" title="Pedir ayuda por correo">
+                        <img src="img/9.png">
+                    </a>
+                </li>
 
 
-				</li>
+
+                </li>
 			</ul>
-		</div>
+			</div>
+        
 
+ </footer>
+        <script src="JS/cipher.js"></script>
+        <script src="JS/index.js"></script>
+        <script src="JS/encode.js"></script>
+        <script src="JS/up.js"></script>
 
-		        <script src="JS/cipher.js"></script>
-				<script src="JS/index.js"></script>
-				<script src="JS/encode.js"></script>
-				<script src="JS/up.js"></script>
-
-	</footer>
+   
 
 </body>
-    
+
 
 </html>
