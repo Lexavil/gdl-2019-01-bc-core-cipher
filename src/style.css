@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css?family=Ubuntu:300,400|Fredoka+One|Permanent+Marker|Mountains+of+Christmas|Varela+Round");
+@import url("https://fonts.googleapis.com/css?family=Ubuntu:300,400|Roboto|Fredoka+One|Permanent+Marker|Mountains+of+Christmas|Raleway");
 
 
 /* Reset Styles */
@@ -94,19 +94,21 @@ section {
     padding-bottom: 2rem;
 }
 
-h2 {
+h2, h3 {
     text-align: center;
     font-size: 1.8rem;
     font-weight: 300;
     color: #222;
-    font-family: "Mountains of Christmas";
+    font-family: "Raleway";
 }
+
 
 p {
     line-height: 1.65;
     font-size: 1.2rem;
     font-weight: 400;
-    color: #333;
+	color: #333;
+	font-family: "Raleway";
 }
 
 img {
@@ -171,7 +173,7 @@ h1 {
 .menu__item a:visited,
 .profile__link a,
 .profile__link a:visited {
-    color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
     font-family: 'Fredoka One';
     font-size: 1em;
     text-shadow: 3px 3px 18px rgb(0, 0, 0);
@@ -406,7 +408,9 @@ form {
     font-family: "Varela Round";
     width: 45%;
     margin: 0 auto;
-    background: rgb(209, 209, 209);
+	background: rgb(209, 209, 209);
+
+	
 }
 
 
@@ -714,6 +718,7 @@ input[type=submit]:focus,
     }
 }
 
+
 /*boton de ir arriba*/
 .ir-arriba {
     display: none;
@@ -749,7 +754,8 @@ input[type=submit]:focus,
     position: relative;
     width: 45%;
     margin: 0 auto;
-    font-family: "Fredoka One";
+	font-family: "Fredoka One";
+	
 }
 
 .button:hover {
